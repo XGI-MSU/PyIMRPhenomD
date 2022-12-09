@@ -47,7 +47,7 @@ if __name__=='__main__':
     print("compiled in %10.7f seconds"%(tf-t0))
 
 
-    #run 100 times with the compiled version to test speed
+    #run 10000 times with the compiled version to test speed
     t0 = perf_counter()
     n_run = 10000
     for itrm in range(0,n_run):
